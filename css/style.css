@@ -1,0 +1,20 @@
+* {
+	font-family: 'Source Code Pro', monospace;
+}
+
+#cont {
+	display: grid;
+	place-items: center;
+}
+
+a {
+	color: #fd8efb;
+}
+
+a :active {
+	color: #000000;
+}
+
+a :hover {
+	color: #000000;
+}
