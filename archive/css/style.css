@@ -1,0 +1,33 @@
+* {
+  font-family: "Source Code Pro", monospace;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+#cont {
+  /* display: grid;
+				place-items: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  min-height: 100vh;
+}
+
+.more {
+  margin-top: 100px;
+}
+
+/* @media (prefers-color-scheme: dark) {
+				body {
+					color: #ffffff;
+					background: #0d0d0d;
+				}
+			} */
