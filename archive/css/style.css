@@ -1,5 +1,5 @@
 * {
-  font-family: "Source Code Pro", monospace;
+  font-family: Helvetica, Sans-Serif;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -19,6 +19,15 @@ body {
   align-items: center;
   text-align: left;
   min-height: 100vh;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fd8efb;
 }
 
 .more {
