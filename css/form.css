@@ -1,0 +1,23 @@
+h3{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+label {
+	margin: 15px;
+}
+
+input {
+	margin: 15px;
+	padding: 5px;
+}
+
+textarea {
+	margin: 15px;
+	padding: 5px;
+}
+
+button {
+	margin: 15px;
+	padding: 5px;
+}
