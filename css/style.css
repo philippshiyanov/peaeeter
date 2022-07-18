@@ -41,8 +41,6 @@ br {
   text-align: left;
 }
 
-
-
 .Marquee {
   font-size: 1em;
   line-height: 1.3em;
@@ -50,6 +48,20 @@ br {
   background-color: white;
   color: #ffce39;
   border-bottom: 3px black solid;
+}
+
+#baby {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  iframe {
+    display: none;
+  }
+
+  #baby {
+    display: block;
+  }
 }
 
 
