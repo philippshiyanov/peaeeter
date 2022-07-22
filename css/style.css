@@ -5,11 +5,22 @@
 }
 
 body {
+
   height: 100vh;
   width: 100vw;
-  background: url('../bgH.jpg') center 100%;
-  color: white;
 }
+
+body {
+  background-image: url('../bgH.jpg');
+  background-attachment: fixed;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+}
+
 
 #cont {
 z-index: 10;
@@ -45,9 +56,8 @@ br {
   font-size: 1em;
   line-height: 1.3em;
   padding: 0.3em;
-  background-color: white;
-  color: #ffce39;
-  border-bottom: 3px black solid;
+  color: #ff39d7;
+  border-bottom: 3px #ff39d7 solid;
 }
 
 #baby {
