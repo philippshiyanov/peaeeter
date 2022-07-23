@@ -37,7 +37,7 @@ z-index: 10;
 #cont > div {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10%;
+  /* margin-bottom: 10%; */
 
 }
 br {
@@ -62,15 +62,29 @@ br {
 
 #baby {
   display: none;
+  
 }
+
+
 
 @media only screen and (max-width: 600px) {
   iframe {
     display: none;
   }
 
+  a {
+    color: #ff39d7;
+    text-decoration: none;
+    margin-bottom: 5%;
+    
+  }
+
   #baby {
-    display: block;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   }
 }
 
